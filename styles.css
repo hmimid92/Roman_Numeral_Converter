@@ -1,5 +1,6 @@
 :root {
     --coror-style: green;
+    --font-var: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
@@ -66,10 +67,10 @@ label {
     width: 220px;
     height: 50px;
     border-radius: 4px;
-    border: 2px solid green;
+    border: 2px solid var(--coror-style);
     font-size: x-large;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-var);
     margin-top: 20px;
     background-color:darkgray;
     outline: none;
@@ -80,10 +81,10 @@ label {
     padding: 8px;
     height: 50px;
     border-radius: 4px;
-    border: 2px solid green;
+    border: 2px solid var(--coror-style);
     font-size: x-large;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-var);
     color:darkblue;
     cursor: pointer;
     margin-top: 20px;
@@ -102,7 +103,7 @@ label {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-var);
 }
 
 .noVisible {
@@ -111,7 +112,7 @@ label {
 }
 
 .stylingOutput {
-    border: 5px solid green;
+    border: 5px solid var(--coror-style);
     color:darkblue;
 }
 
