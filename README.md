@@ -1,2 +1,3 @@
 # Roman_Numeral_Converter
-learning js
+
+This project aims to convert arabic numbers to roaman number
